@@ -1,0 +1,36 @@
+VQFN-100-1EP_12x12mm_P0.4mm_EP8x8mm:
+  device_type: 'QFN'
+  #manufacturer: 'FTDIChip'
+  #part_number: 'mpn'
+  size_source: 'https://ftdichip.com/wp-content/uploads/2020/07/DS_FT600Q-FT601Q-IC-Datasheet.pdf#page=27'
+  ipc_class: 'qfn' # 'qfn_pull_back'
+  #ipc_density: 'least' #overwrite global value for this device.
+  #custom_name_format:
+  body_size_x:
+    nominal: 12
+    tolerance: 0.1
+  body_size_y:
+    nominal: 12
+    tolerance: 0.1
+  overall_height:
+    nominal: 0.85
+    tolerance: 0.05
+  lead_width:
+    nominal: 0.2
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.4
+    tolerance: 0.1
+  EP_size_x:
+    nominal: 8
+    tolerance: 0.1
+  EP_size_y:
+    nominal: 8
+    tolerance: 0.1
+  #EP_paste_coverage: 0.65
+  EP_num_paste_pads: [1, 1]
+  #heel_reduction: 0.1 #for relatively large EP pads (increase clearance)
+
+  pitch: 0.4
+  num_pins_x: 25
+  num_pins_y: 25
